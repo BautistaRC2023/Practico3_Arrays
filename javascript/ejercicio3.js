@@ -20,7 +20,12 @@ apariciones[sumanumerosrandom]++;
 document.write('<table>');
 document.write('<tr><th>Numero</th><th>apariciones</th></tr>');
 
+for (let i = 2 ; i<= 12; i++){
+    document.write('<tr> <td>${i}</td><td>${apariciones[i]}</td></tr>');
 
+}
+
+document.write('</table>');
 
 
 
